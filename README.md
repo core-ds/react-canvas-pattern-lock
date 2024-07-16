@@ -1,4 +1,4 @@
-# React-canvas-pattern-lock
+# react-canvas-pattern-lock
 
 A pattern lock library for the React
 
@@ -7,13 +7,19 @@ A pattern lock library for the React
 ## Installation
 Install the library with
 ```jsx
-npm install react-canvas-pattern-lock
+npm install @alfalab/react-canvas-pattern-lock
+```
+
+or 
+
+```jsx
+yarn add @alfalab/react-canvas-pattern-lock
 ```
 
 ## Get started
 
 ```jsx
-import { ReactCanvasPatternLock } from 'react-canvas-pattern-lock';
+import { ReactCanvasPatternLock } from '@alfalab/react-canvas-pattern-lock';
 
 export const PatternLock = (props) => (
   <ReactCanvasPatternLock {...props}/>
