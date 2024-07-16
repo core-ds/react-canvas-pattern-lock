@@ -19,3 +19,6 @@ export const PatternLock = (props) => (
   <ReactCanvasPatternLock {...props}/>
 )
 ```
+
+## Publish
+Run `Publish` action from github actions
